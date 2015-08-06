@@ -1,0 +1,27 @@
+{
+  "resources":
+  [
+	{"name":"bgImage","type":"image","url":"assets/bg.jpg"},
+	{"name":"pot1","type":"image","url":"assets/pot1.png"},
+	{"name":"pot2","type":"image","url":"assets/pot2.png"},
+	{"name":"btnStart","type":"image","url":"assets/btn_start.png"},
+	{"name":"stay_png","type":"image","url":"assets/stay.png"},
+	{"name":"stay_json","type":"json","url":"assets/stay.json"},
+	{"name":"weizhu_png","type":"image","url":"assets/weizhu.png"},
+	{"name":"weizhu_json","type":"json","url":"assets/weizhu.json"},
+
+	{"name":"victory_bg","type":"image","url":"assets/victory.png"},
+	{"name":"failed_bg","type":"image","url":"assets/failed.png"},
+	{"name":"replay_btn","type":"image","url":"assets/replay.png"},
+	{"name":"egret_txt" ,"type":"image" ,"url":"assets/txt.png"},
+	{"name":"description","type":"json","url":"config/description.json"},
+	{"name": "set_sound","type": "sound", "url": "assets/set.mp3"},
+	{"name": "victory_sound","type": "sound", "url": "assets/victory_sound.mp3"},
+	{"name": "fail_sound","type": "sound", "url": "assets/fail_sound.mp3"}
+  ],
+
+  "groups":
+  [
+	{"name":"preload","keys":"bgImage,pot1,pot2,egret_txt,btnStart,stay_json,stay_png,weizhu_json,weizhu_png,victory_bg,failed_bg,replay_btn,set_sound,victory_sound,fail_sound"}
+  ]
+}
